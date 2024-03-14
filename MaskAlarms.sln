@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{844B240C-AB60-40C4-9460-AE1FE605BBC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaskAlarms", "MaskAlarms", "{EC7DB03E-3F6F-4F00-AB6F-B2D4ADBE34BA}"
+	ProjectSection(SolutionItems) = preProject
+		MaskAlarms.xml = MaskAlarms.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{B65A5DC8-9EDF-4210-B574-5E0C788F6B6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaskAlarms_1", "MaskAlarms_1\MaskAlarms_1.csproj", "{D7EE58F7-A178-4F37-A8E1-3B18BE73169F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7EE58F7-A178-4F37-A8E1-3B18BE73169F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EE58F7-A178-4F37-A8E1-3B18BE73169F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EE58F7-A178-4F37-A8E1-3B18BE73169F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EE58F7-A178-4F37-A8E1-3B18BE73169F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC7DB03E-3F6F-4F00-AB6F-B2D4ADBE34BA} = {844B240C-AB60-40C4-9460-AE1FE605BBC9}
+		{B65A5DC8-9EDF-4210-B574-5E0C788F6B6D} = {EC7DB03E-3F6F-4F00-AB6F-B2D4ADBE34BA}
+		{D7EE58F7-A178-4F37-A8E1-3B18BE73169F} = {B65A5DC8-9EDF-4210-B574-5E0C788F6B6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09FE76F3-101B-4A7F-8F88-8B0715E2E9A5}
+	EndGlobalSection
+EndGlobal
