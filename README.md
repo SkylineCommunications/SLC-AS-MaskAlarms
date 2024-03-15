@@ -2,8 +2,8 @@ This repository contains an automation scrict that can mask or unmask Views, Ser
 
 The script has thre entry parameters that need to be given at the start of the execution:
 
-  1-Name: The name of the View, Service or Element to mask;
+    1-Name: The name of the View, Service or Element to mask;
   
-  2-Type: View, service or element (works best with a Memory File indicating these options);
+    2-Type: View, service or element (works best with a Memory File indicating these options);
   
-  3-Operation: Mask or Unmask
+    3-Operation: Mask or Unmask
